@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./the-styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hotel Website</title>
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+        <!-- I removed bg-light from the bootstrap nav class, then added an id (nava) to increase specificity of the nav items TO remove the background color and make the font color white -->
+            <nav class="navbar navbar-expand-lg navbar-light"> 
+                <div class="container-fluid">
+                    <div class="logo">
+                  <a class="navbar-brand" id="nava" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="link">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="nava" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="nava" href="#">Facilities</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="nava" href="#">Rooms</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="nava" href="#">Contact Us</a>
+                      </li>
+                      
+                    </ul>
+                </div>
+                  </div>
+                </div>
+              </nav>
+
+              <div class="welcome">
+                <div class="message">
+                  <h3>Welcome to</h> <br>
+                    <h1>The Billion</h1>
+                    <h3 class="hote">Hotels</h3>
+            
+                  <p>Book your stay to enjoy hospitality at its best.</p>
+                </div>
+                <div class="butt">
+                <button type="button" class="btn btn-warning">Book Now</button>
+              </div>
+              </div>
+        </div>
+      </header>
+
+    <div class="first-p">
+      <p>Each of our rooms comes with a complementary breakfast throughout your stay!</p>
+    </div>
+
+      <div class="container-fluid">
+        <div class="wrapper">
+        <div class="row">
+            <div class="col-md-6 betty">
+                <h3>Beauty and Serenity</h3>
+                <p>We value beauty and aesthetics at every corner. 
+                  You will find our rooms cozy and beautiful. 
+                  The environment will make you appreciate nature. 
+                  There are also nature paintings on our walls. 
+                  We boast of a rich botanical garden and a mini-zoo.</p>
+                <button type="button" class="btn btn-warning">Explore</button>
+            </div>
+            
+            <div class="col-md-6">
+                <img src="../images/hotel-room.jpg" alt="Photo of hotel room" width="300px" height="250px"/>
+
+            </div>
+        </div>
+        </div>
+
+          <div class="wrapper">      
+            <div class="row">
+              <div class="col-md-6 letty">
+                  <h3>Sumptious Food and Wow! Restaurant</h3>
+                  <p>We serve intercontinental dishes to meet your taste. 
+                    We also have special dishes for our customers on special diets. 
+                    Our dieticians and nutritionists also offer individual counseling. 
+                  </p>
+                  <button type="button" class="btn btn-warning">Explore</button>
+              </div>
+              <div class="col-md-6">
+                  <img src="../images/Restaurant.jpg" alt="Photo of hotel restaurant" width="300px" height="250px"/>
+  
+              </div>
+          </div>
+          </div>
+      </div>    
+
+        <div class="container-fluid">
+          <div class="testimony">
+            <h3>Testimonials</h3>
+            <p>Beautiful, quiet, for people who are in love with nature.</p>
+            <p class="last-p">Dr. and Lady Monsi, Aberdeen.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+              <button class="btn btn-primary me-md-2 but-las" type="button">&#60</button>
+              <button class="btn btn-primary but-las" type="button">&#62</button>
+            </div>
+          </div>
+        </div>
+
+         
+       <div class="container-fluid">
+          <div class="row last-row">
+              <div class="col-md-3 hotels">
+                <div class="hotel-name">
+                  <h3>The Billion</h3>
+                  <h5>Hotels</h5>
+                </div>
+                <div class="addr">
+                  <p>20 Aba Road, Port Harcourt, Nigeria.</p>
+                  <p>d-billion_hotels@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="col-md-3 links">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-3 social">
+                <div><ul>
+                  <li><a href="#" class="fa fa-facebook"></a></li><p class="fb-soc">Facebook</p></ul></div>
+                  <div><ul><li><a href="#" class="fa fa-twitter"></a></li><p class="tw-soc">Twitter</p></ul></div>
+                  <div><ul><li><a href="#" class="fa fa-instagram"></a></li><p class="in-soc">Instagram</p></ul></div>
+              </div>
+
+
+              <div class="col-md-3 newsletter">
+                <div class="subscribe">
+                  <p>Subscribe to our newsletter.</p>
+                </div>
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="Email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Go</button>
+                </div>
+              </div>
+            </div>
+            </div>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
